@@ -1,9 +1,7 @@
-"use client";
-
 export default function Home() {
   return (
-    <main className="flex items-center justify-center">
-      <h1>Clock</h1>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <h1>Quit Zina</h1>
     </main>
   );
 }

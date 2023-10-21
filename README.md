@@ -1,1 +1,1 @@
-# !Zina
+# Quit Zina...!
