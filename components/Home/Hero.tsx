@@ -31,7 +31,9 @@ export const Hero = () => {
             ))}
           </div>
         </div>
-        <div className="bg-gray-500 w-[50%]">Animation right to left</div>
+        <div className="bg-gray-500 w-[50%] flex justify-start overflow-hidden">
+          <h1 className="marquee">hello world One</h1>
+        </div>
       </div>
     </Container>
   );
