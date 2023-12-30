@@ -4,7 +4,7 @@ import { Container } from "@/universal";
 export const MotivationalVideo = () => {
   return (
     <Container>
-      <div className="mt-14 text-2xl font-bold text-center mb-3">
+      <div className="mt-24 text-2xl font-bold text-center mb-3">
         Motivational Video
       </div>
 
