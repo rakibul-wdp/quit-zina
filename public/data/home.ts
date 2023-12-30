@@ -1,4 +1,5 @@
-import { IHomeRank, IMotivationalVideo } from "@/interface";
+import { IFeatureProducts, IHomeRank, IMotivationalVideo } from "@/interface";
+import { Ator } from "../assets/images";
 
 export const homeRank: IHomeRank[] = [
   {
@@ -44,5 +45,41 @@ export const motivationVideo: IMotivationalVideo[] = [
   {
     id: 4,
     url: "https://www.youtube.com/embed/mr15Xzb1Ook?si=X8deFQ_NGMVkOjNh",
+  },
+];
+
+export const featureProducts: IFeatureProducts[] = [
+  {
+    id: 1,
+    name: "Kasturi Royal",
+    brand: "example",
+    price: 350,
+    image: Ator,
+    description:
+      "The mobile is compact with its 6.2-inch OLED screen and far lighter at 168g. It perfectly captures the design, looks, and feel of the expensive one. It comes with a snapdragon processor with a 5n chip in it. It has a 200mp camera in the rear 100mp in front perfect for selfie lovers. It also support HDR content means you can watch 4K content on it.",
+    category: "ator",
+    featured: true,
+  },
+  {
+    id: 2,
+    name: "Kasturi Royal",
+    brand: "example",
+    price: 350,
+    image: Ator,
+    description:
+      "The mobile is compact with its 6.2-inch OLED screen and far lighter at 168g. It perfectly captures the design, looks, and feel of the expensive one. It comes with a snapdragon processor with a 5n chip in it. It has a 200mp camera in the rear 100mp in front perfect for selfie lovers. It also support HDR content means you can watch 4K content on it.",
+    category: "ator",
+    featured: true,
+  },
+  {
+    id: 3,
+    name: "Kasturi Royal",
+    brand: "example",
+    price: 350,
+    image: Ator,
+    description:
+      "The mobile is compact with its 6.2-inch OLED screen and far lighter at 168g. It perfectly captures the design, looks, and feel of the expensive one. It comes with a snapdragon processor with a 5n chip in it. It has a 200mp camera in the rear 100mp in front perfect for selfie lovers. It also support HDR content means you can watch 4K content on it.",
+    category: "ator",
+    featured: true,
   },
 ];
