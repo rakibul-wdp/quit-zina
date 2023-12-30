@@ -21,3 +21,9 @@ export interface IFeatureProducts {
   category: string;
   featured: boolean;
 }
+
+export interface IImportantSpeeches {
+  id: number;
+  title: string;
+  details: string;
+}
