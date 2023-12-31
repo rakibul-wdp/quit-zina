@@ -27,3 +27,9 @@ export interface IImportantSpeeches {
   title: string;
   details: string;
 }
+
+export interface IFAQs {
+  id: number;
+  question: string;
+  answer: string;
+}

@@ -1,4 +1,5 @@
 import {
+  IFAQs,
   IFeatureProducts,
   IHomeRank,
   IImportantSpeeches,
@@ -107,5 +108,38 @@ export const importantSpeeches: IImportantSpeeches[] = [
     title: "Example Three",
     details:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis dolorum harum. Quo error eius itaque, voluptatum laborum officia. Excepturi in error quia ea voluptate inventore molestiae, corporis labore esse temporibus at repellendus pariatur placeat, vel cum vitae autem! Consequatur natus excepturi sapiente eaque quia quo. Sed, error possimus. Beatae praesentium harum corporis quis soluta, suscipit a pariatur voluptatum, aspernatur molestiae veritatis. Neque dolorum possimus quidem? Quasi omnis odio exercitationem! Voluptatum, distinctio eveniet iste corporis aspernatur corrupti numquam velit aut quisquam sit commodi aliquam modi nobis id ab nihil. Magnam esse unde sed eligendi excepturi? Obcaecati saepe delectus dolorem nostrum.",
+  },
+];
+
+export const FAQs: IFAQs[] = [
+  {
+    id: 1,
+    question: "Question One Why this thing",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure unde accusantium velit laborum distinctio harum, deserunt obcaecati est enim officia nesciunt, nihil non animi mollitia?",
+  },
+  {
+    id: 2,
+    question: "Question One Why this thing",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure unde accusantium velit laborum distinctio harum, deserunt obcaecati est enim officia nesciunt, nihil non animi mollitia?",
+  },
+  {
+    id: 3,
+    question: "Question One Why this thing",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure unde accusantium velit laborum distinctio harum, deserunt obcaecati est enim officia nesciunt, nihil non animi mollitia?",
+  },
+  {
+    id: 4,
+    question: "Question One Why this thing",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure unde accusantium velit laborum distinctio harum, deserunt obcaecati est enim officia nesciunt, nihil non animi mollitia?",
+  },
+  {
+    id: 5,
+    question: "Question One Why this thing",
+    answer:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure unde accusantium velit laborum distinctio harum, deserunt obcaecati est enim officia nesciunt, nihil non animi mollitia?",
   },
 ];
