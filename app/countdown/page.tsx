@@ -1,5 +1,12 @@
+import { History, Stopwatch } from "@/components/Countdown";
+
 const Countdown = () => {
-  return <div>Countdown</div>;
+  return (
+    <main>
+      <Stopwatch />
+      <History />
+    </main>
+  );
 };
 
 export default Countdown;
