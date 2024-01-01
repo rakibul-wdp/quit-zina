@@ -9,7 +9,7 @@ export const Navbar = () => {
 
   return (
     <Container>
-      <div className="py-5 flex items-center justify-between">
+      <div className="py-5 flex items-center justify-between border-b">
         <h1 className="text-lg text-primary font-bold">Quit Zina!</h1>
         <ul className="flex items-center justify-center gap-5 font-medium">
           <Link href="/" className={`${pathname === "/" && "text-primary"}`}>

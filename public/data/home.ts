@@ -38,7 +38,7 @@ export const homeRank: IHomeRank[] = [
 export const motivationVideo: IMotivationalVideo[] = [
   {
     id: 1,
-    url: "https://www.youtube.com/embed/Tn6-PIqc4UM?si=GMWxOg_huCNx6gyL",
+    url: "https://www.youtube.com/embed/M0dAK6IQsSk?si=Ta-0GA6MBZPiTM8k",
   },
   {
     id: 2,
