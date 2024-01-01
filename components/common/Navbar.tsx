@@ -28,6 +28,12 @@ export const Navbar = () => {
             Motivation
           </Link>
           <Link
+            href="/products"
+            className={`${pathname === "/products" && "text-primary"}`}
+          >
+            Religious Products
+          </Link>
+          <Link
             href="/dashboard"
             className={`${pathname === "/dashboard" && "text-primary"}`}
           >

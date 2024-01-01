@@ -1,5 +1,12 @@
+import { ShowPost, WritePost } from "@/components/Motivation";
+
 const Motivation = () => {
-  return <div>Motivation</div>;
+  return (
+    <main>
+      <WritePost />
+      <ShowPost />
+    </main>
+  );
 };
 
 export default Motivation;
