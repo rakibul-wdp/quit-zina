@@ -3,6 +3,7 @@ import { Container } from "@/universal";
 export const History = () => {
   return (
     <Container>
+      <div></div>
       <div className="mt-24 mb-3 text-2xl font-semibold text-center">
         History
       </div>

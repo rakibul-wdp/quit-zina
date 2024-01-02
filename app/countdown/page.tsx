@@ -1,3 +1,5 @@
+"use client";
+
 import { History, Stopwatch } from "@/components/Countdown";
 
 const Countdown = () => {
