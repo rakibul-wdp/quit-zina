@@ -1,5 +1,12 @@
+import { AboutCreator, AboutQuitZina } from "@/components/About";
+
 const About = () => {
-  return <div>About</div>;
+  return (
+    <main>
+      <AboutQuitZina />
+      <AboutCreator />
+    </main>
+  );
 };
 
 export default About;
