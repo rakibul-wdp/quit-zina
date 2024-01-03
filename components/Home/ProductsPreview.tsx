@@ -16,12 +16,7 @@ export const ProductsPreview = () => {
       <div className="flex items-center justify-between gap-10">
         {featureProducts.map((product) => (
           <div key={product.id}>
-            <Image
-              src={product.image}
-              width={500}
-              height={500}
-              alt="feature product"
-            />
+            <Image src={product.image} alt="feature product" />
           </div>
         ))}
       </div>

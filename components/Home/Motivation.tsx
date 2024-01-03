@@ -13,12 +13,7 @@ export const Motivation = () => {
           <button className="mt-28 bg-red-400 p-3">Let&apos;s see</button>
         </div>
         <div className="w-[50%]">
-          <Image
-            src={MotivationalPost}
-            width={1000}
-            height={1000}
-            alt="motivation post"
-          />
+          <Image src={MotivationalPost} alt="motivation post" />
         </div>
       </div>
     </Container>
