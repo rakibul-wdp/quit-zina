@@ -2,13 +2,11 @@
 
 import { History, Stopwatch } from "@/components/Countdown";
 
-const Countdown = () => {
+export default function Countdown() {
   return (
     <main>
       <Stopwatch />
       <History />
     </main>
   );
-};
-
-export default Countdown;
+}

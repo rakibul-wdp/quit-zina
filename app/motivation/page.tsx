@@ -1,12 +1,10 @@
 import { ShowPost, WritePost } from "@/components/Motivation";
 
-const Motivation = () => {
+export default function Motivation() {
   return (
     <main>
       <WritePost />
       <ShowPost />
     </main>
   );
-};
-
-export default Motivation;
+}
