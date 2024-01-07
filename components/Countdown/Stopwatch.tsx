@@ -8,20 +8,25 @@ export const Stopwatch = () => {
   const [hrs, setHrs] = useState(0);
   const [mins, setMins] = useState(0);
   const [secs, setSecs] = useState(0);
+  const [intervalId, setIntervalId] = useState<NodeJS.Timeout | undefined>();
 
   let startTime = 0;
   let elapsedTime = 0;
-  let intervalId;
 
   const start = () => {
     startTime = Date.now() - elapsedTime;
-    intervalId = setInterval(updateTime, 1000);
-    console.log("start clicked");
+    const id = setInterval(updateTime, 1000);
+    setIntervalId(id);
   };
 
   const restart = () => {
     clearInterval(intervalId);
+    setHrs(0);
+    setMins(0);
+    setSecs(0);
+    startTime = 0;
     elapsedTime = 0;
+
     start();
   };
 
