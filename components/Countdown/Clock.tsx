@@ -1,9 +1,11 @@
-export const Clock = () => {
-  const percentage = 35;
+import { ITime } from "@/interface";
+
+export const Clock = ({ days, hrs, mins, secs, elapsedTime }: ITime) => {
+  const percentage = elapsedTime / 1000;
   const circleWidth = 200;
   const radius = 85;
   const dashArray = radius * Math.PI * 2;
-  const dashOffset = dashArray - (dashArray * percentage) / 100;
+  const dashOffset = dashArray - (dashArray * percentage) / 86400;
 
   return (
     <div>
@@ -29,14 +31,11 @@ export const Clock = () => {
           style={{ strokeDasharray: dashArray, strokeDashoffset: dashOffset }}
           transform={`rotate(-90 ${circleWidth / 2} ${circleWidth / 2})`}
         />
-        <text
-          x="50%"
-          y="50%"
-          dy="0.3em"
-          textAnchor="middle"
-          className="text-3xl font-bold"
-        >
-          {percentage}%
+        <text x="50%" y="45%" dy="0.3em" textAnchor="middle">
+          <tspan className="text-3xl font-bold">{days} days</tspan>
+          <tspan x="50%" dy="1.8em" className="text-lg">
+            {hrs}:{mins}:{secs}
+          </tspan>
         </text>
       </svg>
     </div>

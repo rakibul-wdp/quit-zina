@@ -5,6 +5,7 @@ import { Container } from "@/universal";
 import { useState } from "react";
 
 export const Stopwatch = () => {
+  const [days, setDays] = useState(0);
   const [hrs, setHrs] = useState(0);
   const [mins, setMins] = useState(0);
   const [secs, setSecs] = useState(0);
@@ -21,6 +22,7 @@ export const Stopwatch = () => {
 
   const restart = () => {
     clearInterval(intervalId);
+    setDays(0);
     setHrs(0);
     setMins(0);
     setSecs(0);
@@ -35,7 +37,9 @@ export const Stopwatch = () => {
     const secs = Math.floor((elapsedTime / 1000) % 60);
     const mins = Math.floor((elapsedTime / (1000 * 60)) % 60);
     const hrs = Math.floor((elapsedTime / (1000 * 60 * 60)) % 60);
+    const days = Math.floor(elapsedTime / (1000 * 60 * 60 * 24));
 
+    setDays(days);
     setHrs(hrs);
     setMins(mins);
     setSecs(secs);
@@ -45,6 +49,7 @@ export const Stopwatch = () => {
     <Container>
       <div className="w-[10%] mx-auto">
         <div className="flex items-center gap-5">
+          <p>{days}</p>
           <p>{hrs}</p>
           <p>{mins}</p>
           <p>{secs}</p>
@@ -56,7 +61,13 @@ export const Stopwatch = () => {
       </div>
 
       <div className="mt-14 flex items-center justify-between">
-        <Clock />
+        <Clock
+          days={days}
+          hrs={hrs}
+          mins={mins}
+          secs={secs}
+          elapsedTime={elapsedTime}
+        />
         <Rank />
       </div>
     </Container>
