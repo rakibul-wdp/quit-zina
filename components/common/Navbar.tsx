@@ -9,8 +9,8 @@ export const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <Container>
-      <div className="py-5 flex items-center justify-between border-b">
+    <Container position="navbar">
+      <div className="py-5 flex items-center justify-between fixed top-0 left-5 right-5 z-10 bg-white">
         <h1 className="text-lg text-primary font-bold">Quit Zina!</h1>
         <ul className="flex items-center justify-center gap-5 font-medium">
           {navLinks.map((navLink) => (
