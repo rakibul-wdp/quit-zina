@@ -1,5 +1,6 @@
 "use client";
 
+import { navLinks } from "@/public/data";
 import { Container } from "@/universal";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -12,51 +13,18 @@ export const Navbar = () => {
       <div className="py-5 flex items-center justify-between border-b">
         <h1 className="text-lg text-primary font-bold">Quit Zina!</h1>
         <ul className="flex items-center justify-center gap-5 font-medium">
-          <Link href="/" className={`${pathname === "/" && "text-primary"}`}>
-            Home
-          </Link>
-          <Link
-            href="/countdown"
-            className={`${pathname === "/countdown" && "text-primary"}`}
-          >
-            Countdown
-          </Link>
-          <Link
-            href="/motivation"
-            className={`${pathname === "/motivation" && "text-primary"}`}
-          >
-            Motivation
-          </Link>
-          <Link
-            href="/products"
-            className={`${pathname === "/products" && "text-primary"}`}
-          >
-            Religious Products
-          </Link>
-          <Link
-            href="/dashboard"
-            className={`${pathname === "/dashboard" && "text-primary"}`}
-          >
-            Dashboard
-          </Link>
-          <Link
-            href="/about"
-            className={`${pathname === "/about" && "text-primary"}`}
-          >
-            About
-          </Link>
-          <Link
-            href="/signup"
-            className={`${pathname === "/signup" && "text-primary"}`}
-          >
-            SignUp
-          </Link>
-          <Link
-            href="/login"
-            className={`${pathname === "/login" && "text-primary"}`}
-          >
-            Login
-          </Link>
+          {navLinks.map((navLink) => (
+            <li key={navLink.id}>
+              <Link
+                href={navLink.path}
+                className={`${
+                  pathname === navLink.path && "text-primary font-semibold"
+                }`}
+              >
+                {navLink.title}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
     </Container>
