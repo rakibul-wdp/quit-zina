@@ -9,6 +9,7 @@ export const Stopwatch = () => {
   const [hrs, setHrs] = useState(0);
   const [mins, setMins] = useState(0);
   const [secs, setSecs] = useState(0);
+  const [progressTime, setProgressTime] = useState(0);
   const [intervalId, setIntervalId] = useState<NodeJS.Timeout | undefined>();
 
   let startTime = 0;
@@ -43,6 +44,7 @@ export const Stopwatch = () => {
     setHrs(hrs);
     setMins(mins);
     setSecs(secs);
+    setProgressTime(elapsedTime);
   };
 
   return (
@@ -66,7 +68,7 @@ export const Stopwatch = () => {
           hrs={hrs}
           mins={mins}
           secs={secs}
-          elapsedTime={elapsedTime}
+          elapsedTime={progressTime}
         />
         <Rank />
       </div>

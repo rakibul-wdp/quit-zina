@@ -1,7 +1,10 @@
 import { ITime } from "@/interface";
 
 export const Clock = ({ days, hrs, mins, secs, elapsedTime }: ITime) => {
-  const percentage = elapsedTime / 1000;
+  const percentage =
+    elapsedTime / 1000 <= 86400
+      ? elapsedTime / 1000
+      : (elapsedTime / 1000) % 86400;
   const circleWidth = 200;
   const radius = 85;
   const dashArray = radius * Math.PI * 2;
