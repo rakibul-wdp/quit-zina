@@ -30,6 +30,16 @@ export default function useStopwatch() {
   };
 
   const updateTime = () => {
+    // const storedTime = localStorage.getItem("time");
+
+    // if (storedTime) {
+    //   console.log(storedTime);
+    //   elapsedTime = parseInt(storedTime, 10);
+    // } else {
+    //   elapsedTime = Date.now() - startTime;
+    //   localStorage.setItem("time", elapsedTime.toString());
+    // }
+
     elapsedTime = Date.now() - startTime;
     const secs = Math.floor((elapsedTime / 1000) % 60);
     const mins = Math.floor((elapsedTime / (1000 * 60)) % 60);
