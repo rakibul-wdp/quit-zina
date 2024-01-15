@@ -1,14 +1,28 @@
 import { homeRank } from "@/public/data";
 import { Container } from "@/universal";
+import Link from "next/link";
+import { HeroMarquee } from ".";
+import { Clock } from "../Countdown";
 
 export const Hero = () => {
   return (
     <Container>
       <div className="flex items-center justify-between">
-        <div className="bg-gray-300 w-[50%] flex items-center justify-between p-5">
-          <div className="border-8 border-green-500 rounded-full w-[50%] h-72 flex flex-col items-center justify-center">
-            <h1 className="text-4xl font-bold mb-2">246 days</h1>
-            <h3 className="text-xl font-medium">07:35:23</h3>
+        <div className="w-[50%] flex items-center justify-between p-5">
+          <div className="flex flex-col items-center justify-center gap-10">
+            <Clock
+              days={246}
+              hrs={14}
+              mins={25}
+              secs={35}
+              elapsedTime={86400 * 650}
+            />
+            <Link
+              href="/countdown"
+              className="bg-primary text-white font-semibold px-3 py-1 rounded-2xl"
+            >
+              Start
+            </Link>
           </div>
           <div className="pr-3">
             {homeRank.map((rank) => (
@@ -31,9 +45,7 @@ export const Hero = () => {
             ))}
           </div>
         </div>
-        <div className="bg-gray-500 w-[50%] flex justify-start overflow-hidden">
-          <h1 className="marquee">hello world One</h1>
-        </div>
+        <HeroMarquee />
       </div>
     </Container>
   );

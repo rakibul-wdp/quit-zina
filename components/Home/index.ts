@@ -4,3 +4,4 @@ export * from "./ImportantSpeech";
 export * from "./Motivation";
 export * from "./MotivationalVideo";
 export * from "./ProductsPreview";
+export * from "./HeroMarquee";
