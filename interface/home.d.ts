@@ -33,3 +33,10 @@ export interface IFAQs {
   question: string;
   answer: string;
 }
+
+export interface IMarquee {
+  id: number;
+  time: string;
+  title: string;
+  details: string;
+}

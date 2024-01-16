@@ -3,6 +3,7 @@ import {
   IFeatureProducts,
   IHomeRank,
   IImportantSpeeches,
+  IMarquee,
   IMotivationalVideo,
 } from "@/interface";
 import { Ator } from "../assets/images";
@@ -141,5 +142,330 @@ export const FAQs: IFAQs[] = [
     question: "Question One Why this thing",
     answer:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure unde accusantium velit laborum distinctio harum, deserunt obcaecati est enim officia nesciunt, nihil non animi mollitia?",
+  },
+];
+
+export const marquee: IMarquee[] = [
+  {
+    id: 1,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 2,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 3,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 4,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 5,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 6,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 7,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 8,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 9,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 10,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 11,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 12,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 13,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 14,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 15,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 16,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 17,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 18,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 19,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 20,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 21,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 22,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 23,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 24,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 25,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 26,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 27,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 28,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 29,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 30,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 31,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 32,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 33,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 34,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 35,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 36,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 37,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 38,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 39,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 40,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 41,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 42,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 43,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 44,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 45,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
+  },
+  {
+    id: 46,
+    time: "After 5 Days",
+    title: "Sick",
+    details:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellendus?",
   },
 ];
