@@ -6,11 +6,6 @@ export interface IHomeRank {
   reach: string;
 }
 
-export interface IMotivationalVideo {
-  id: number;
-  url: string;
-}
-
 export interface IFeatureProducts {
   id: number;
   name: string;

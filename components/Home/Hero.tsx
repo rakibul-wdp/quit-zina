@@ -7,7 +7,7 @@ import { Clock } from "../Countdown";
 export const Hero = () => {
   return (
     <Container>
-      <div className="flex items-center justify-between">
+      <div className="mt-24 flex items-center justify-between">
         <div className="w-[50%] flex items-center justify-between p-5">
           <div className="flex flex-col items-center justify-center gap-10">
             <Clock

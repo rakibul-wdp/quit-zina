@@ -4,7 +4,6 @@ import {
   IHomeRank,
   IImportantSpeeches,
   IMarquee,
-  IMotivationalVideo,
 } from "@/interface";
 import { Ator } from "../assets/images";
 
@@ -33,25 +32,6 @@ export const homeRank: IHomeRank[] = [
     id: 5,
     rank: "High Overlord",
     reach: "Reach 365 days",
-  },
-];
-
-export const motivationVideo: IMotivationalVideo[] = [
-  {
-    id: 1,
-    url: "https://www.youtube.com/embed/M0dAK6IQsSk?si=Ta-0GA6MBZPiTM8k",
-  },
-  {
-    id: 2,
-    url: "https://www.youtube.com/embed/UBUNrFtufWo?si=vYcdhQjB_zHdm0qD",
-  },
-  {
-    id: 3,
-    url: "https://www.youtube.com/embed/zQnBQ4tB3ZA?si=VK7k75tO-y4qcDfw",
-  },
-  {
-    id: 4,
-    url: "https://www.youtube.com/embed/mr15Xzb1Ook?si=X8deFQ_NGMVkOjNh",
   },
 ];
 
