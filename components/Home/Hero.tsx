@@ -19,7 +19,7 @@ export const Hero = () => {
             />
             <Link
               href="/countdown"
-              className="bg-primary text-white font-semibold px-3 py-1 rounded-2xl"
+              className="bg-primary text-white font-semibold px-5 py-2 rounded-full"
             >
               Start
             </Link>
