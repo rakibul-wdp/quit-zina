@@ -1,38 +1,37 @@
+"use client";
+
 import { marquee } from "@/public/data";
+import { useEffect, useState } from "react";
 
 export const HeroMarquee = () => {
+  const [animated, setAnimated] = useState(true);
+
+  useEffect(() => {
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      addAnimation();
+    }
+  }, []);
+
+  const addAnimation = () => {
+    setAnimated(true);
+  };
+
   return (
-    <div className="marquee w-[50%] h-[200px] overflow-hidden relative mx-auto">
-      <div className="marquee--inner block w-[200%] absolute">
-        <div className="float-left w-[50%]">
-          {marquee.slice(0, 23).map((change) => (
-            <div
-              className="w-[35%] bg-gray-400 text-center rounded inline-block p-5 mx-2 float-left transition-all duration-200 ease-out hover:scale-110 hover:opacity-50 hover:cursor-pointer"
-              key={change.id}
-            >
-              <div>{change.time}</div>
-              <h2>
-                {change.title}-{change.id}
-              </h2>
-              <p>{change.details}</p>
-            </div>
-          ))}
-        </div>
-        <div className="float-left w-[50%]">
-          {marquee.slice(-23).map((change) => (
-            <div
-              className="w-[35%] bg-gray-400 text-center rounded inline-block p-5 mx-2 float-left transition-all duration-200 ease-out hover:scale-110 hover:opacity-50 hover:cursor-pointer"
-              key={change.id}
-            >
-              <div>{change.time}</div>
-              <h2>
-                {change.title}-{change.id}
-              </h2>
-              <p>{change.details}</p>
-            </div>
-          ))}
-        </div>
-      </div>
+    <div
+      className={`scroller max-w-[600px] ${animated ? "animated" : ""}`}
+      data-animated={animated}
+    >
+      <ul className="list-none flex flex-wrap gap-4 scroller__inner">
+        {marquee.map((period) => (
+          <li className="w-60 text-center p-4 border rounded" key={period.id}>
+            <h2>{period.time}</h2>
+            <h3>
+              {period.title}-{period.id}
+            </h3>
+            <p>{period.details}</p>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
