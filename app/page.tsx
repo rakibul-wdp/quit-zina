@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <h1>Quit Zina!</h1>
+      <h1>Hello World!</h1>
     </main>
   );
 }
