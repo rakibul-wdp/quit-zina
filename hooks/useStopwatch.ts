@@ -10,11 +10,12 @@ export default function useStopwatch() {
   const [progressTime, setProgressTime] = useState(0);
   const [intervalId, setIntervalId] = useState<NodeJS.Timeout | undefined>();
 
-  let startTime = 0;
-  let elapsedTime = 0;
-
   const start = () => {
-    startTime = Date.now() - elapsedTime;
+    const elapsedTime = JSON.parse(
+      localStorage.getItem("elapsedTime") ?? "null"
+    );
+    localStorage.setItem("startTime", `${Date.now() - elapsedTime}`);
+
     const id = setInterval(updateTime, 1000);
     setIntervalId(id);
   };
@@ -25,24 +26,16 @@ export default function useStopwatch() {
     setHrs(0);
     setMins(0);
     setSecs(0);
-    startTime = 0;
-    elapsedTime = 0;
 
+    localStorage.setItem("elapsedTime", "0");
     start();
   };
 
   const updateTime = () => {
-    // const storedTime = localStorage.getItem("time");
+    const startTime = JSON.parse(localStorage.getItem("startTime") ?? "null");
+    const elapsedTime = Date.now() - startTime;
+    localStorage.setItem("elapsedTime", `${elapsedTime}`);
 
-    // if (storedTime) {
-    //   console.log(storedTime);
-    //   elapsedTime = parseInt(storedTime, 10);
-    // } else {
-    //   elapsedTime = Date.now() - startTime;
-    //   localStorage.setItem("time", elapsedTime.toString());
-    // }
-
-    elapsedTime = Date.now() - startTime;
     const secs = Math.floor((elapsedTime / 1000) % 60);
     const mins = Math.floor((elapsedTime / (1000 * 60)) % 60);
     const hrs = Math.floor((elapsedTime / (1000 * 60 * 60)) % 60);
