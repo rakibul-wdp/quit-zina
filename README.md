@@ -1,6 +1,6 @@
 # Quit Zina!
 
-It will help people, by quitting addiction how to be a good muslim. It's mainly focus, how to quit p\*\*n addiction, that's call quit all of zina (thinking in mind, watching p\*\*n & soft p\*\*n, doing m\*\*n).
+Will help people, how to quit addiction and become good Muslims. It mainly helps how to quit eyes Zina (p\*\*n addiction) from the internet.
 
 ## Motivation
 
