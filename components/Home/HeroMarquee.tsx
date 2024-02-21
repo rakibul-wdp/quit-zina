@@ -23,10 +23,13 @@ export const HeroMarquee = () => {
     >
       <ul className="list-none flex flex-wrap gap-4 scroller__inner">
         {marquee.map((period) => (
-          <li className="w-60 text-center p-4 border rounded" key={period.id}>
-            <h2>{period.time}</h2>
-            <h3>
-              {period.title}-{period.id}
+          <li
+            className="w-60 text-center p-4 border border-primary rounded"
+            key={period.id}
+          >
+            <h2 className="text-xl font-semibold">{period.time}</h2>
+            <h3 className="my-2 text-lg font-semibold underline underline-offset-4 decoration-wavy">
+              {period.title}
             </h3>
             <p>{period.details}</p>
           </li>
