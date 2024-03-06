@@ -74,21 +74,21 @@ export const featureProducts: IFeatureProducts[] = [
 export const importantSpeeches: IImportantSpeeches[] = [
   {
     id: 1,
-    title: "Example One",
+    title: "Why need to quit it?",
     details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis dolorum harum. Quo error eius itaque, voluptatum laborum officia. Excepturi in error quia ea voluptate inventore molestiae, corporis labore esse temporibus at repellendus pariatur placeat, vel cum vitae autem! Consequatur natus excepturi sapiente eaque quia quo. Sed, error possimus. Beatae praesentium harum corporis quis soluta, suscipit a pariatur voluptatum, aspernatur molestiae veritatis. Neque dolorum possimus quidem? Quasi omnis odio exercitationem! Voluptatum, distinctio eveniet iste corporis aspernatur corrupti numquam velit aut quisquam sit commodi aliquam modi nobis id ab nihil. Magnam esse unde sed eligendi excepturi? Obcaecati saepe delectus dolorem nostrum.",
+      "P**n addiction destroy our brains. From the Islamic point of view, first of all, it is a sin of poets. And it has many bad sides like it is worse than taking drugs. Just like taking drag increases dopamine levels in the brain, watching porn increases dopamine levels in the brain and slowly destroys the brain. It wastes our precious time. Also reduces productivity by damaging us mentally and physically.",
   },
   {
     id: 2,
-    title: "Example Two",
+    title: "Where it starts?",
     details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis dolorum harum. Quo error eius itaque, voluptatum laborum officia. Excepturi in error quia ea voluptate inventore molestiae, corporis labore esse temporibus at repellendus pariatur placeat, vel cum vitae autem! Consequatur natus excepturi sapiente eaque quia quo. Sed, error possimus. Beatae praesentium harum corporis quis soluta, suscipit a pariatur voluptatum, aspernatur molestiae veritatis. Neque dolorum possimus quidem? Quasi omnis odio exercitationem! Voluptatum, distinctio eveniet iste corporis aspernatur corrupti numquam velit aut quisquam sit commodi aliquam modi nobis id ab nihil. Magnam esse unde sed eligendi excepturi? Obcaecati saepe delectus dolorem nostrum.",
+      "First of all, you need to know about Mind Zina! Okay, it happens when you think about this kind of thing. It’s trigger to see soft p**n and soft p**n trigger to direct p**n and then you do worst things. So, it starts from the mind. Normally when we spend free time and don’t have any work, this time shaitan brings it into our mind. Not only this time but also every time Shaitan reminds us of bad things. <br/> Shaitan wants you to do the worst things (finally Zina) but he is intelligent. He doesn’t tell us to direct it but he step by step going this final stage. The first step is mind zina and then eyes zina (soft p**n on the internet) and then etc. Shaitan makes big sins through small sins.",
   },
   {
     id: 3,
-    title: "Example Three",
+    title: "How to quit it?",
     details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis dolorum harum. Quo error eius itaque, voluptatum laborum officia. Excepturi in error quia ea voluptate inventore molestiae, corporis labore esse temporibus at repellendus pariatur placeat, vel cum vitae autem! Consequatur natus excepturi sapiente eaque quia quo. Sed, error possimus. Beatae praesentium harum corporis quis soluta, suscipit a pariatur voluptatum, aspernatur molestiae veritatis. Neque dolorum possimus quidem? Quasi omnis odio exercitationem! Voluptatum, distinctio eveniet iste corporis aspernatur corrupti numquam velit aut quisquam sit commodi aliquam modi nobis id ab nihil. Magnam esse unde sed eligendi excepturi? Obcaecati saepe delectus dolorem nostrum.",
+      "First understand that it has several steps. The first is to think in the mind. Then watching soft porn on social media and finally masturbating straight to porn. <br/> So the most effective way to quit it is to stop thinking or not thinking. In addition to this, the eyes must be closed (stop eyes zina). You have to stop watching soft porn because it leads to direct porn. No matter how much we think we won't do these things but if I don't stop watching soft porn on social media then it's not possible. <br/> Five prayers should be offered, Quran should be recited with money. And whenever these bad thoughts come to mind, one should recite Auzubillah",
   },
 ];
 
