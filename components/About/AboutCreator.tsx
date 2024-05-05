@@ -15,6 +15,8 @@ export const AboutCreator = () => {
           nulla magnam. Totam quisquam veniam itaque quod unde fuga, placeat
           natus quas error ducimus soluta architecto vitae quos atque alias in?
           Eius aspernatur impedit velit, commodi fugiat quisquam vitae, incidunt
+          <br />
+          <br />
           ab sit libero perferendis magni nihil pariatur! Ratione ducimus, eum
           iure rem nobis animi. Necessitatibus maiores suscipit ullam. Explicabo
           doloribus hic voluptas, architecto voluptates fugit nemo voluptatum
