@@ -16,6 +16,7 @@ The goal with `Quit Zina!` is to keep people healthy and productive so that peop
 - Religious products for motivation
 - Interactive dashboard for managing all this stuff
 
-Quick Start
+## Quick Start
+
 Usage
 Contributing
