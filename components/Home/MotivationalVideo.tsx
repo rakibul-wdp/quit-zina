@@ -23,14 +23,19 @@ export const MotivationalVideo = () => {
             className="rounded-xl"
           ></iframe>
         ) : (
-          <div onClick={() => setShowVideo(true)} style={{ cursor: "pointer" }}>
+          <div
+            onClick={() => setShowVideo(true)}
+            className="cursor-pointer border-2 border-primary rounded w-[90%] relative hover:scale-105 duration-100 transition-all"
+          >
             <Image
               src={MotivationalVideoThumbnail}
               alt="Thumbnail"
-              width={500}
+              width={1280}
               height={600}
-              className="w-full"
             />
+            <h1 className="text-5xl text-primary text-center font-bold absolute bottom-[250px]">
+              Desexualizing your brain is the cheat code to success...!!!
+            </h1>
           </div>
         )}
       </div>
