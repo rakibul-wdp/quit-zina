@@ -18,5 +18,8 @@ The goal with `Quit Zina!` is to keep people healthy and productive so that peop
 
 ## Quick Start
 
-Usage
-Contributing
+## Usage
+
+## Contributing
+
+I would love your help! Contribute by forking the repo and opening pull requests to the `main` branch.
