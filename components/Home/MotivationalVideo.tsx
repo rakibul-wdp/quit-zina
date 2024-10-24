@@ -25,7 +25,7 @@ export const MotivationalVideo = () => {
         ) : (
           <div
             onClick={() => setShowVideo(true)}
-            className="cursor-pointer border-2 border-primary rounded w-[90%] relative hover:scale-105 duration-100 transition-all"
+            className="cursor-pointer border-2 border-primary rounded w-[90%] relative hover:scale-[1.01] duration-100 transition-all"
           >
             <Image
               src={MotivationalVideoThumbnail}

@@ -27,7 +27,7 @@ export const HeroMarquee = () => {
             className="w-60 text-center p-4 border border-primary rounded"
             key={period.id}
           >
-            <h2 className="text-xl font-semibold">{period.time}</h2>
+            <h2 className="text-xl font-medium">{period.time}</h2>
             <h3 className="my-2 text-lg font-semibold underline underline-offset-4 decoration-wavy">
               {period.title}
             </h3>

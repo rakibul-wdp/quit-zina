@@ -37,7 +37,7 @@ export const Footer = () => {
         </div>
       </div>
       <hr />
-      <div className="text-center py-5">
+      <div className="text-center py-5 -mb-12">
         <p>Copyright &copy; {new Date().getFullYear()} Quit Zina</p>
       </div>
     </Container>
